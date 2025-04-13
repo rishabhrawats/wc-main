@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Blog - Whispering Tech</title>
+  <meta content="Latest blog posts from Whispering Chevrons Consultancy." name="description">
+
+  <!-- Favicons -->
+  <link href="img/wclogo.png" rel="icon">
+  <link href="img/backgroundless logo 2.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Poppins" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Whispering Chevrons</span></a></h1>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About Us</a></li>
+          <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+          <li><a class="nav-link scrollto active" href="blog.html">Blog</a></li>
+          <li><a id="navbook" class="nav-link scrollto" href="#cal">Book a Call</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- ======= Blog Section ======= -->
+  <main id="main" class="container mt-5">
+    <section class="blog py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Our Blog</h2>
+          <p>Latest insights and updates</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <img src="assets/img/blog1.jpg" class="card-img-top" alt="Blog Image">
+              <div class="card-body">
+                <h5 class="card-title">The Future of Web Development</h5>
+                <p class="card-text">Discover the latest trends and technologies shaping the web industry.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <img src="assets/img/blog2.jpg" class="card-img-top" alt="Blog Image">
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity Best Practices</h5>
+                <p class="card-text">Stay ahead with essential tips to protect your digital assets.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <img src="assets/img/blog3.jpg" class="card-img-top" alt="Blog Image">
+              <div class="card-body">
+                <h5 class="card-title">Data Analytics in Business</h5>
+                <p class="card-text">How big data is transforming industries and decision-making.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 Whispering Chevrons Consultancy. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Industry Tags</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #111827;
+            --secondary: #6B7280;
+            --accent: #4F46E5;
+            --accent-light: #818CF8;
+            --light-bg: #F9FAFB;
+            --highlight: #E0E7FF;
+            --tag-bg: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--light-bg);
+            color: var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .tag-container {
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            margin-bottom: 2.5rem;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .tag {
+            background: var(--tag-bg);
+            border: 1px solid #E5E7EB;
+            border-radius: 50px;
+            padding: 0.7rem 1.4rem;
+            font-size: 0.92rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+            position: relative;
+            overflow: hidden;
+            will-change: transform, box-shadow;
+        }
+
+        .tag::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 0;
+        }
+
+        .tag:hover {
+            transform: translateY(-4px) scale(1.06);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.08), 0 4px 8px rgba(0,0,0,0.05);
+            border-color: transparent;
+            color: white;
+        }
+
+        .tag:hover::before {
+            opacity: 1;
+        }
+
+        .tag-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .tag i {
+            font-size: 0.85rem;
+            color: var(--accent);
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .tag:hover i {
+            color: white;
+            transform: rotate(15deg) scale(1.2);
+        }
+
+        .tag:nth-child(odd):hover i {
+            transform: rotate(-15deg) scale(1.2);
+        }
+
+        /* Staggered animation */
+        @keyframes tagEntrance {
+            0% {
+                opacity: 0;
+                transform: translateY(15px) rotate(2deg);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) rotate(0);
+            }
+        }
+
+        .tag {
+            animation: tagEntrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+        }
+
+        /* Animation delays */
+        .tag:nth-child(1) { animation-delay: 0.05s; }
+        .tag:nth-child(2) { animation-delay: 0.1s; }
+        .tag:nth-child(3) { animation-delay: 0.15s; }
+        .tag:nth-child(4) { animation-delay: 0.2s; }
+        .tag:nth-child(5) { animation-delay: 0.25s; }
+        .tag:nth-child(6) { animation-delay: 0.3s; }
+        .tag:nth-child(7) { animation-delay: 0.35s; }
+        .tag:nth-child(8) { animation-delay: 0.4s; }
+        .tag:nth-child(9) { animation-delay: 0.45s; }
+        .tag:nth-child(10) { animation-delay: 0.5s; }
+        .tag:nth-child(11) { animation-delay: 0.55s; }
+        .tag:nth-child(12) { animation-delay: 0.6s; }
+        .tag:nth-child(13) { animation-delay: 0.65s; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .tag-container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 2rem;
+            }
+            
+            .tags {
+                gap: 0.7rem;
+            }
+            
+            .tag {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+            
+            .tag {
+                padding: 0.55rem 1rem;
+                font-size: 0.8rem;
+            }
+            
+            .tag i {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tag-container">
+        <h1>Industry Innovation Tags</h1>
+        <div class="tags">
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-hospital"></i>
+                    <span>Healthcare</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-running"></i>
+                    <span>Sport Tech</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-users"></i>
+                    <span>Social</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Gamification</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-truck"></i>
+                    <span>Logistics</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-film"></i>
+                    <span>Entertainment</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-solar-panel"></i>
+                    <span>Solar</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-newspaper"></i>
+                    <span>News</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Consultancy</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Fintech</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Shopping</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="tag-content">
+                    <i class="fas fa-hammer"></i>
+                    <span>Mining</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.tag').forEach(tag => {
+            // Press effect
+            tag.addEventListener('mousedown', () => {
+                tag.style.transform = 'translateY(2px) scale(0.96)';
+            });
+            
+            // Release effect
+            tag.addEventListener('mouseup', () => {
+                tag.style.transform = 'translateY(-4px) scale(1.06)';
+            });
+            
+            tag.addEventListener('mouseleave', () => {
+                tag.style.transform = '';
+            });
+            
+            // Click animation
+            tag.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Ripple effect
+                const ripple = document.createElement('span');
+                ripple.className = 'ripple-effect';
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.backgroundColor = 'rgba(255, 255, 255, 0.4)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s linear';
+                ripple.style.pointerEvents = 'none';
+                
+                // Position ripple
+                const rect = tag.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                ripple.style.width = ripple.style.height = `${size}px`;
+                ripple.style.left = `${e.clientX - rect.left - size/2}px`;
+                ripple.style.top = `${e.clientY - rect.top - size/2}px`;
+                
+                tag.appendChild(ripple);
+                
+                // Remove ripple after animation
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+                
+                console.log('Selected:', tag.textContent.trim());
+            });
+        });
+
+        // Add ripple animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(2.5);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
